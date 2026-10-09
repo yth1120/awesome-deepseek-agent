@@ -45,13 +45,12 @@ Key 的解析顺序为：模型级自定义 Key → `DEEPSEEK_API_KEY` 环境变
 - **模型** —— `deepseek-v4-pro`，或 `deepseek-flash`（即 DeepSeek V4.1 Flash；已下线的 `deepseek-v4-flash` 名字会被规范化到它）。
 - **思考深度** —— 三档。最高档（**深度思考**）会被映射为 DeepSeek 的 `reasoning_effort: "max"`，中档映射为 `high`，最低档映射为 `low`。
 
-重构与多文件改造想要最强推理，选 **深度思考**。
 
 <div align="center">
 <img src="./assets/auraxis_thinking_depth.zh-CN.png" width="720" border="1" />
 </div>
 
-两个内置模型都声明了 DeepSeek V4 的 **100 万 token** 上下文窗口，输入框的上下文计量条会随对话增长按该窗口读数，无需任何额外配置。
+两个内置模型都声明了 DeepSeek V4 的 **1M** 上下文窗口，输入框的上下文计量条会随对话增长按该窗口读数，无需任何额外配置。
 
 #### 4. 进阶用法
 
