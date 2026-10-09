@@ -45,13 +45,12 @@ Click the model chip in the composer to open the model and thinking-depth panel:
 - **Model** — `deepseek-v4-pro`, or `deepseek-flash` (DeepSeek V4.1 Flash; the retired `deepseek-v4-flash` name is normalized to it).
 - **Thinking depth** — three levels. The top level (**Deep**) maps to DeepSeek's `reasoning_effort: "max"`, the middle to `high`, the lowest to `low`.
 
-For the strongest reasoning on refactors and multi-file work, pick **Deep**.
 
 <div align="center">
 <img src="./assets/auraxis_thinking_depth.png" width="720" border="1" />
 </div>
 
-DeepSeek V4's **1 million token** context window is declared for both built-in models, and the composer's context meter reads against that window as a conversation grows — there is nothing to configure.
+DeepSeek V4's **1M-token** context window is declared for both built-in models, and the composer's context meter reads against that window as a conversation grows — there is nothing to configure.
 
 #### 4. Going Further
 
